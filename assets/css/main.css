@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    background-color: darkolivegreen;
+    color: black;
+}
+
+/* Name */
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+    font-weight: 200;
+    line-height: 59px;
+    color: #fff;
+}
+
+/* Controls & Buttons */
+
+.stopwatch {
+    justify-items: center;
+    grid-row-gap: 23px;
+    display: grid;
+    width: 100%;
+    padding-top: 25px;
+}
+
+.cricle {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 270px;
+    height: 270px;
+    border: 2px solid;
+    border-radius: 50%;
+}
+
+.time {
+    font-size: 48px;
+}
+
+.name {
+    font-weight: 900;
+    color: #30B638;
+    text-shadow: 0 0 0px #fff, 0 0 50px #30B638;
+}
+
+
+.controls {
+    width: 187px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    cursor: pointer;
+    background: transparent;
+    outline: none;
+    padding: 0;
+    border: none;
+    margin: 0;
+}
+
+#playButton {
+    display: block;
+}
+
+#pauseButton {
+    display: none;
+}
+
+/* Developer */
+
+.desing {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    margin-top: 100px;
+}
+
+.desing a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.desing a:hover {
+    text-decoration: underline;
+    transition: 300ms all;
+}
